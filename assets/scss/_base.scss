@@ -1,0 +1,51 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    font-family: $ftitillium;
+}
+
+h2 {
+    font-size: 36px;
+    font-weight: bold;
+    font-family: $ftitillium;
+}
+
+h3 {
+    font-size: 28px;
+    font-weight: bold;
+    font-family: $ftitillium;
+}
+
+p {
+    font-size: 20px;
+    font-style: italic;
+    font-weight: 550;
+    font-family: $fopen;
+}
+
+
+button {
+    padding: 9px 25px;
+    background-color: $cgray;
+    border: none;
+    border-radius: 18px;
+
+    font-size: 18px;
+    font-weight: 500;
+    color: $cmilk;
+    text-decoration: none;
+}
+
+@media screen and (max-width: 768px) {
+    * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+    }
+}
